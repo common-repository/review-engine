@@ -1,0 +1,42 @@
+#reviewengine-settings-wrap form {
+	background-color: #fff;
+	border-radius: 6px;
+	padding: 0px 20px 20px;
+	overflow: hidden;
+}
+
+#reviewengine-settings-wrap .ree-nav-tab {
+	padding: 10px 20px 0px;
+	margin: 0px -20px 20px;
+	border: 0px;
+	background-color: #f5f5f5;
+}
+
+#reviewengine-settings-wrap .ree-nav-tab a {
+    box-shadow: none;
+    outline: none;
+    border: 0px !important;
+    margin: 0px 10px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#reviewengine-settings-wrap .ree-nav-tab a.nav-tab-active {
+	background-color: #fff;
+}
+
+.ree-tab-pane {
+	display: none;
+}
+
+.ree-tab-pane.active {
+	display: block;
+}
+
+.amazon-connect p {
+	display: inline-block;
+	margin: 0px 15px 0px 0px;
+}
+
+.amazon-connect button {
+	margin-right: 5px !important;
+}

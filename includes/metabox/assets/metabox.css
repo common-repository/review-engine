@@ -1,0 +1,24 @@
+#reviewengine-product-informations h2.re-nav-tab {
+	padding: 0px 0px;
+}
+
+#reviewengine-product-informations ul.re-gallery {
+	margin: 0px 0px;
+	padding: 0px 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#reviewengine-product-informations ul.re-gallery li {
+	border: 1px solid #ddd;
+	margin: 0px 0px;
+	padding: 5px 5px;
+	width: 20%;
+	text-align: center;
+}
+
+#reviewengine-product-informations ul.re-gallery li img {
+	max-width: 70px;
+	height: auto;
+	border: 0px;
+}

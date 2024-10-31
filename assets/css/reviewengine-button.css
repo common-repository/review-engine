@@ -1,0 +1,101 @@
+.reviewengine-btn-wrap {
+	margin-bottom: 20px;
+}
+
+.reviewengine-btn {
+	display: inline-block;
+	border: 0px;
+	text-align: center;
+	text-decoration: none;
+	box-shadow: none;
+	text-shadow: none;
+	outline: none;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.reviewengine-btn:hover,
+.reviewengine-btn:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+.reviewengine-btn.reviewengine-btn-s {
+	font-size: 18px;
+	line-height: 21px;
+	padding: 12px 15px;
+}
+
+.reviewengine-btn.reviewengine-btn-m {
+	font-size: 24px;
+	line-height: 28px;
+	padding: 14px 22px;
+}
+
+.reviewengine-btn.reviewengine-btn-l {
+	font-size: 32px;
+	line-height: 38px;
+	padding: 18px 30px;
+}
+
+.reviewengine-btn.reviewengine-btn-xl {
+	font-size: 38px;
+	line-height: 41px;
+	padding: 22px 40px;
+}
+
+.reviewengine-btn.reviewengine-btn-xxl {
+	font-size: 52px;
+	line-height: 57px;
+	padding: 32px 50px;
+}
+
+.reviewengine-btn.reviewengine-btn-flat {
+	background-color: #238ae6;
+	color: #ffffff;
+}
+
+.reviewengine-btn.reviewengine-btn-flat:hover {
+	background-color: #41a8ff;
+}
+
+.reviewengine-btn.reviewengine-btn-gradient {
+	color: #fff;
+	background: #238ae6;
+	background: -moz-linear-gradient(top,#41a8ff 0%, #238ae6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#41a8ff), color-stop(100%,#238ae6));
+	background: -webkit-linear-gradient(top,#41a8ff 0%,#238ae6 100%);
+	background: -o-linear-gradient(top,#41a8ff 0%,#238ae6 100%);
+	background: -ms-linear-gradient(top,#41a8ff 0%,#238ae6 100%);
+	background: linear-gradient(to bottom,#41a8ff 0%,#238ae6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41a8ff', endColorstr='#238ae6',GradientType=0 );
+}
+
+.reviewengine-btn.reviewengine-btn-transparent {
+	background-color: transparent;
+	border: 2px solid #238ae6;
+	color: #238ae6;
+}
+
+.reviewengine-btn.reviewengine-btn-transparent:hover {
+	background-color: #238ae6;
+	color: #fff;
+}
+
+.reviewengine-btn-has-icon .reviewengine-btn span.reviewengine-btn-text {
+	vertical-align: middle;
+}
+
+.reviewengine-btn-has-icon .reviewengine-btn .fa {
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+}
+
+.reviewengine-btn-icon-before .reviewengine-btn .fa {
+	margin-right: 8px;
+}
+
+.reviewengine-btn-icon-after .reviewengine-btn .fa {
+	margin-left: 8px;
+}
